@@ -23,19 +23,19 @@
 }
 
 @media screen and (max-width: 700px) {
-    .modal-content{
+    .modal-content {
         width: 400px;
     }
 }
 
 @media screen and (max-width: 475px) {
-    .modal-content{
+    .modal-content {
         width: 300px;
     }
 }
 
 @media screen and (max-width: 340px) {
-    .modal-content{
+    .modal-content {
         width: 250px;
     }
 }

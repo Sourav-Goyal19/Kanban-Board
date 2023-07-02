@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-.cardInfo{
+.cardInfo {
     position: absolute;
 }
 
@@ -41,14 +41,14 @@
     background: #e6e5e5;
 }
 
-.color-labels{
+.color-labels {
     display: flex;
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
 }
 
-.color-labels li{
+.color-labels li {
     height: 25px;
     width: 25px;
     border-radius: 50%;
@@ -57,13 +57,13 @@
     transition: all 0.45s ease;
 }
 
-.active{
+.active {
     transform: scale(0.9);
     box-shadow: 1px 2px 0 1px #e6e5e5;
     border: 3px solid black;
 }
 
-.taskBar{
+.taskBar {
     margin: 5px;
     height: 15px;
     width: 100%;
@@ -72,30 +72,30 @@
     overflow: hidden;
 }
 
-.tasks{
+.tasks {
     height: 15px;
     border-radius: 30px;
     background: rgb(24, 174, 223);
 }
 
-.full{
+.full {
     background-color: limegreen;
 }
 
-.tasks-Container{
+.tasks-Container {
     display: flex;
     flex-direction: column;
     gap: .625rem;
 }
 
-.taskContainer{
+.taskContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px;
 }
 
-.taskCheckBox{
+.taskCheckBox {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -103,20 +103,20 @@
     font-weight: 200;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     height: 1.4rem;
     width: 1.4rem;
     cursor: pointer;
 }
 
-.labels{
+.labels {
     display: flex;
     gap: .625rem;
     flex-wrap: wrap;
 }
 
 @media screen and (max-width:475px) {
-    .color-labels{
+    .color-labels {
         gap: 25px;
     }
 }
