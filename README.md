@@ -1,36 +1,51 @@
-<h3 style="font-size: 24px;">Kanban Board</h3>
+# Project Kanban Board
+
+## Overview
+
+A Kanban board is a project management tool that helps visualize and organize tasks in a workflow. This project implements a simple Kanban board with the following features:
+
+## Features
+
+### Create New Tasks
+
+- Easily create new tasks with a title and description
+
+### Drag and Drop
+
+- Intuitively drag and drop tasks between different columns
+
+### Edit Task Details
+
+- Edit task details such as title and description
+
+### Delete Tasks
+
+- Remove tasks from the board when they are completed or no longer needed
+
+### Responsive Design
+
+- Responsive design for seamless usage across different screen sizes
+
+## Technologies Used
+
+The project is built using the following technologies:
+
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+- React DnD (Drag and Drop library)
 
 
-The Kanban Board is a web-based application that helps you manage and visualize your tasks using the Kanban methodology. This project provides a simple and intuitive interface for organizing your tasks into different categories or stages, such as "To Do," "In Progress," and "Done."
+## Live Demo
 
+Check out the live demo [here](https://project-10-kanban-board.vercel.app).
 
-Features
+## License
 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Drag and Drop: Easily move tasks between different columns/stages using the drag and drop functionality.
+## Acknowledgements
 
-Create and Delete Tasks: Add new tasks to the board and remove tasks when they are completed or no longer needed.
-
-Task Details: View and edit task details, such as title, description, due date, and assigned user.
-
-Responsive Design: The application is responsive and adapts to different screen sizes, making it accessible on various devices.
-
-
-Technologies Used
-
-
-HTML: Provides the structure and markup of the application.
-
-CSS: Styles the application and makes it visually appealing.
-
-JavaScript: Implements the interactive functionality of the Kanban Board, such as drag and drop and task management.
-
-React: A JavaScript library for building user interfaces, used to create and manage components.
-
-Vercel: A cloud platform for deploying web applications, used to host the Kanban Board project.
-
-
-Live Demo
-
-
-A live demo of the Kanban Board application can be accessed here. Feel free to try it out and see how it can help you stay organized!
+- This project was inspired by the concept of Kanban boards and their use in project management.
+- Special thanks to the contributors and the open-source community for their valuable libraries and resources.
