@@ -6,7 +6,7 @@ A Kanban board is a project management tool that helps visualize and organize ta
 
 ## Live Demo
 
-Check out the live demo [here](https://project-10-kanban-board.vercel.app).
+Check out the live demo <a href="https://project-10-kanban-board.vercel.app" target="_blank">here</a>.
 
 ## Features
 
