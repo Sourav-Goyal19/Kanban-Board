@@ -17,12 +17,11 @@ const Board = ({
 }) => {
 
   const [showDropdown, setShowDropdown] = useState(false);
-  
+
   return (
     <div
       className='board'
-      onDragEnter={() => onDragEnter(board.id)}
-    >
+      onDragEnter={() => onDragEnter(board.id)}>
       <div className="board-top">
         <p>
           {board?.title} <span style={{ fontWeight: 'bold' }}>{board?.cards?.length}</span>
@@ -48,8 +47,8 @@ const Board = ({
             updateCard={updateCard}
           />
         ))}
+        <Editable text="Add Card" onSubmit={(title) => addCard(board.id, title)} />
       </div>
-      <Editable text="Add Card" onSubmit={(title) => addCard(board.id, title)} />
     </div>
   );
 };
