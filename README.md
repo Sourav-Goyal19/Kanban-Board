@@ -38,5 +38,4 @@ The project is built using the following technologies:
 - CSS3
 - JavaScript
 - React.js
-- React DnD (Drag and Drop library)
 
