@@ -1,4 +1,4 @@
-Kanban Board
+<h3 style="font-size: 24px;">Kanban Board</h3>
 
 
 The Kanban Board is a web-based application that helps you manage and visualize your tasks using the Kanban methodology. This project provides a simple and intuitive interface for organizing your tasks into different categories or stages, such as "To Do," "In Progress," and "Done."
