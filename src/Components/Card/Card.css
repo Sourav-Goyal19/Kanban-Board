@@ -1,0 +1,54 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: grab;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+}
+
+.top svg{
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.45s ease-in-out;
+}
+
+.top-more{
+    position: relative;
+}
+
+.card:hover .top svg{
+    opacity: 1;
+}
+
+.top-label{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.middle{
+    font-size: 25px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_data{
+    display: flex;
+    align-items: center;
+    gap: .3125rem;
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 5px;
+}

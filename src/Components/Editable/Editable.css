@@ -1,0 +1,60 @@
+.editable{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    transition: all 0.45s ease-in;
+}
+
+.editable p{
+    padding: 12px 16px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: default;
+    font-size: 20px;
+    transition: all 0.45s ease;
+    box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.15);
+}
+
+.editable p:hover{
+    box-shadow: 1px 2px 0 1px #e6e5e5;
+    background: #e6e5e5;
+}
+
+.editable form{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.45s ease;
+}
+
+.editable form input{
+    text-align: start;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid black;
+}
+
+.editable_footer{
+    transition: all 0.45s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.editable_footer button{
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.editable_footer button:hover{
+    background: #d8d8d8;
+}

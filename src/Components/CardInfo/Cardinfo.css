@@ -1,0 +1,115 @@
+.cardInfo-box {
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    justify-content: center;
+}
+
+.cardInfo{
+    position: absolute;
+}
+
+.cardInfoMiniBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.box {
+    align-self: flex-start;
+}
+
+.box input {
+    padding: 12px 16px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: default;
+    font-size: 20px;
+    transition: all 0.45s ease;
+    box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.15);
+    outline: none;
+    border: none;
+}
+
+.box input:hover {
+    box-shadow: 1px 2px 0 1px #e6e5e5;
+    background: #e6e5e5;
+}
+
+.color-labels{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.color-labels li{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.45s ease;
+}
+
+.active{
+    transform: scale(0.9);
+    box-shadow: 1px 2px 0 1px #e6e5e5;
+    border: 3px solid black;
+}
+
+.taskBar{
+    margin: 5px;
+    height: 15px;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.tasks{
+    height: 15px;
+    border-radius: 30px;
+    background: rgb(24, 174, 223);
+}
+
+.full{
+    background-color: limegreen;
+}
+
+.tasks-Container{
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+}
+
+.taskContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.taskCheckBox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+input[type="checkbox"]{
+    height: 1.4rem;
+    width: 1.4rem;
+    cursor: pointer;
+}
+
+.labels{
+    display: flex;
+    gap: .625rem;
+    flex-wrap: wrap;
+}
