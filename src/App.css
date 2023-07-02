@@ -9,7 +9,6 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #e7f9ff;
   position: relative;
   z-index: 1;
 }
