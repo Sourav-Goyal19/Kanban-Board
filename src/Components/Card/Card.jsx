@@ -39,14 +39,23 @@ const Card = ({ card, boardId, onDelete, onDragStart, onDragEnd, updateCard }) =
                             <Chip key={index} text={item.text} color={item.color} />
                         ))}
                     </div>
-                    <div className="top-more" onClick={() => setShowDropdown(!showDropdown)}>
-                        <FiMoreHorizontal size={25} />
-                        {showDropdown && (
-                            <Dropdown>
-                                <p onClick={handleDeleteCard}>Delete Card</p>
-                            </Dropdown>
-                        )}
+                    <div className='card' onClick={() => setShowInfo(true)}>
+                        <div
+                            className="top-more"
+                            onClick={(event) => {
+                                event.stopPropagation();
+                                setShowDropdown(!showDropdown);
+                            }}
+                        >
+                            <FiMoreHorizontal size={25} />
+                            {showDropdown && (
+                                <Dropdown>
+                                    <p onClick={handleDeleteCard}>Delete Card</p>
+                                </Dropdown>
+                            )}
+                        </div>
                     </div>
+
                 </div>
                 <div className="middle">{card?.title}</div>
                 <div className="footer">
