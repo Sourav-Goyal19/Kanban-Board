@@ -5,10 +5,10 @@ import { Editable } from './Components/Editable/Editable';
 import { useEffect, useState } from 'react';
 
 const App = () => {
-  const [boards, setBoards] = useState(JSON.parse(localStorage.getItem('karban')) || []);
+  const [boards, setBoards] = useState(JSON.parse(localStorage.getItem('kanban')) || []);
 
   useEffect(() => {
-    localStorage.setItem('karban', JSON.stringify(boards));
+    localStorage.setItem('kanban', JSON.stringify(boards));
   }, [boards])
 
   const [draggedCard, setDraggedCard] = useState(null);
